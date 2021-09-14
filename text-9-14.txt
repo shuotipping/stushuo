@@ -1,0 +1,29 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{  
+	char passwords[20]= {0};
+	int ch;
+	int ret=0;
+	
+    scanf("%s",&passwords); 
+   printf("请输入密码：\n");
+   
+	while((ch=getchar()) !='\n')
+	{;}
+	
+	printf("请确认(Y/N):\n"）;
+		   ret = getchar();
+		   
+	if(ret == 'Y')
+	{
+	printf("登录成功\n");
+	}
+		else
+		{
+			printf("登录失败\n");
+		}
+   
+   return 0;
+}

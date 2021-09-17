@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main() 
+{ 
+	int i,j; int arr[6]={124687};
+	int tem; 
+	for (i=0;i<6;i++)
+	{
+	    tem=arr[i];
+	    for (j=i+1;j<6;j++)
+	    { 
+	        if(arr[i]>arr[j])
+	        {
+	            arr[i]=arr[j];
+	            arr[j]=tem;
+	            
+	        }
+	    }
+	            
+	}
+	
+	printf("%d\n",arr[6]);
+	return 0;
+}

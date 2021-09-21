@@ -1,0 +1,5 @@
+#define MaxSize50
+typedef struct {
+Elemtype data [MaxSize];
+int length;
+}SquList;
